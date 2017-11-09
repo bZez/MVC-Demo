@@ -10,11 +10,12 @@
  * Allez jeter un oeil sur '/controllers/displayUsers.php'                                      *
  *                                                                                              *
  \**********************************************************************************************/
+include ('config.php');
 
 $default = ''; //Vue par défaut essayez avec 'list', 'get' ou 'set'
 
 if ($default == null) { //Si la vue par défaut n'est pas définie alors on dit au contrôleur d'agir comme si il recevait 'list'
-    header('Location:/MVC-Demo/controllers/displayUsers.php?list');
+    header('Location:/'.$project_name.'/controllers/displayUsers.php?list');
 } else { //Sinon on lui envoi $defaut
-    header('Location:/MVC-Demo/controllers/displayUsers.php?' . $default);
+    header('Location:/'.$project_name.'/controllers/displayUsers.php?' . $default);
 }
