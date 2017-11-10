@@ -1,6 +1,6 @@
 <?php
 //Charge le modèle 'setUser.php' (requète(s) SQL) correspondant a la vue 'setUserView.php'
-include ('../models/setUser.php');
+include ('models/setUser.php');
 ?>
 <h3>Ajouter un Utilisateur</h3>
 <form id='usercreate' class="form-inline" method="POST">

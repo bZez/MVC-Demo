@@ -6,5 +6,5 @@ if (!$bdd) {
 	echo "Erreur de connexion MySQL" . PHP_EOL;
 	exit;
 }
-  //N'oublie pas de modifier le nom 
+  //N'oubliez pas de modifier le nom
   $project_name = 'MVC-Demo';

@@ -5,6 +5,6 @@
 </form>
 <?php
 //Charge le modèle 'getUser.php' (requète(s) SQL) correspondant a la vue 'getUserView.php'
-include ('../models/getUser.php');
+include ('models/getUser.php');
 
 ?>
